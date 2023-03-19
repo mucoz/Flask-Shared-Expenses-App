@@ -6,7 +6,7 @@ load_dotenv()
 
 
 class Config(object):
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")  # 'sqlite:///shared-expenses.db'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///shared-expenses.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     JWT_SECRET_KEY = 'cat45!'
     JWT_TOKEN_LOCATION = 'headers'
