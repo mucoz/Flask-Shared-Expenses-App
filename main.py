@@ -21,5 +21,5 @@ def not_found(error):
     return jsonify(msg.ERROR_PAGE_NOT_FOUND), 404
 
 
-if __name__ == "__main__":
-    application.run()
+# if __name__ == "__main__":
+application.run()
