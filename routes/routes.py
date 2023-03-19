@@ -1,0 +1,7 @@
+from controllers.auth import auth_blueprint
+from controllers.user import user_blueprint
+from controllers.event import event_blueprint
+from controllers.attendee import attendee_blueprint
+from controllers.expense import expense_blueprint
+from controllers.checkout import checkout_blueprint
+from controllers.sendmail import sendmail_blueprint
